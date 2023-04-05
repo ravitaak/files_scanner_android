@@ -1,0 +1,21 @@
+name: files_scanner_android
+description: Using this package we can easily can find any files or directory in a Directory.
+version: 1.0.0
+homepage: https://github.com/ravitaak/files_scanner_android
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.ravi.files_scanner_android
+        pluginClass: FilesScannerAndroidPlugin
+
